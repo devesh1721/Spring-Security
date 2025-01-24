@@ -23,6 +23,6 @@ public class DeveshUser {
     private String name;
 
     private String userId;
-
+    private String password;
 
 }

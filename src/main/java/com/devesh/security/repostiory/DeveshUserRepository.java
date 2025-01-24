@@ -7,4 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface DeveshUserRepository extends JpaRepository<DeveshUser, Integer> {
+
+    DeveshUser findByName(String username);
 }
