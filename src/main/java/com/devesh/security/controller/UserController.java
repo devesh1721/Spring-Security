@@ -27,7 +27,6 @@ public class UserController {
 
     @PostMapping("/login")
     public String loginUser(@RequestBody DeveshUser deveshUser){
-        deveshUserService.verifyUser(deveshUser);
-        return "Success";
+        return deveshUserService.verifyUser(deveshUser);
     }
 }
